@@ -63,7 +63,7 @@ export default {
 |key|description|default|options|
 |:---|---|---|---|
 | `isActive`|Is the search overlay active? Use this to toggle active state.|`false`|`Boolean`|
-|`url`|The URL to call to fetch instant results. This URL is also sent a POST request on form submission unless the `hijackSubmit` method is used. The `|val|` merge tag is replaced with the search term.|`/search/term/|val|`|`String`
+|`url`|The URL to call to fetch instant results. This URL is also sent a POST request on form submission unless the `hijackSubmit` method is used. The `\|val\|` merge tag is replaced with the search term.|`/search/term/\|val\|`|`String`
 |`formAction`|The `action=""` attribute value of the search form.|`/search`|`String`|
 |`formInputName`|The `name=""` attribute value of the search input.|`q`|`String`|
 |`formInputType`|The `type=""` attribute value of the search input.|`Text`| `String` |
