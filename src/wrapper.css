@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #a70000;
+}
+.header{
+  background: #720000;
+  height: 100px;
+}
+.btn{
+  background: #000;
+  color: #fff;
+  padding: 1em;
+  margin: 1rem;
+}
+.vue-qs{
+  max-width: 400px;
+  margin: 1rem;
+  background: #fff;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.16);
+}
+.vue-qs__form{
+  height: 40px;
+  padding: .4em;
+}
+.vue-qs__results-overflow{
+  max-height: 200px;
+  overflow: auto;
+}
+.vue-qs__results-footer{
+  text-align: center;
+  padding: 1em 0;
+  margin: 0 .6em;
+  border-top: 1px solid #eee;
+}
+.vue-qs__results{
+  padding: 0 .6em;
+}
+.vue-qs-enter-active {
+  transition: all .3s ease;
+}
+.vue-qs-leave-active {
+  transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.vue-qs-enter, .vue-qs-leave-to{
+  transform: translateX(10px);
+  opacity: 0;
+}

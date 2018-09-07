@@ -1,0 +1,55 @@
+{
+  "name": "vue-quick-search",
+  "version": "0.0.1",
+  "description": "A Vue quick search module",
+  "source": "src/vue-quick-search.vue",
+  "main": "dist/vueQuickSearch.umd.min.js",
+  "scripts": {
+    "watch": "vue serve src/wrapper.vue",
+    "build": "vue build --target lib --name vueQuickSearch src/vue-quick-search.vue",
+    "publish": "npm publish",
+    "lint": "standard src/index.js",
+    "test": " ava test/** -v -w --match='*'"
+  },
+  "ava": {
+    "sources": [
+      "src/**/*.{js,vue}",
+      "!dist/**/*"
+    ],
+    "require": [
+      "./test/helpers/setup.js",
+      "./test/helpers/nanoajax-hijacker.js"
+    ]
+  },
+  "browserslist": [
+    "last 3 version",
+    "IE 11"
+  ],
+  "eslintConfig": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maxrolon/vue-quick-search.git"
+  },
+  "keywords": [],
+  "author": "maxrolon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxrolon/vue-quick-search/issues"
+  },
+  "homepage": "https://github.com/maxrolon/vue-quick-search",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.4",
+    "@vue/test-utils": "^1.0.0-beta.24",
+    "ava": "^1.0.0-beta.4",
+    "browser-env": "^3.2.5",
+    "pirates": "^4.0.0",
+    "require-extension-hooks": "^0.3.3",
+    "require-extension-hooks-babel": "^0.1.1",
+    "require-extension-hooks-vue": "^1.1.0",
+    "standard": "^11.0.1",
+    "vue": "^2.5.17"
+  },
+  "dependencies": {
+    "nanoajax": "^0.4.3"
+  }
+}

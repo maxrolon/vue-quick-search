@@ -1,0 +1,64 @@
+.vue-qs{
+  max-width: 400px;
+}
+.vue-qs__inner{
+  position: relative;
+}
+.vue-qs__form{
+  display: flex;
+}
+.vue-qs__submit{
+  border: none;
+}
+.vue-qs__submit-icon{
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+.vue-qs__input-wrapper{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.vue-qs__input-label{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 1em;
+  margin: auto;
+  z-index: 1;
+}
+.vue-qs__input-el{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  z-index: 2;
+  box-sizing: border-box;
+}
+.vue-qs__input-label,
+.vue-qs__input-el{
+  padding-left: .5em;
+  font-size: inherit;
+}
+.vue-qs__results{
+  list-style: none;
+  padding: 0;
+}
+.vue-qs__result + .vue-qs__result{
+  margin-top: 1em;
+}
+.vue-qs__result-link{
+  display: flex;
+  align-items: center;
+}
+.vue-qs__result-image{
+  width: 25%;
+  height: auto;
+  margin-right: 1em;
+}
+.vue-qs__result-image-el{
+  width: 100%;
+  height: auto;
+}
