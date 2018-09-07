@@ -1,6 +1,6 @@
 ## Vue Quick Search
 
-A Vue component for adding a search overlay with instant search results to your site. ~8.09 kb gzipped.
+A Vue component for adding a search overlay with instant search results to your site.
 
 ![Vue Quick Search Example](images/faZQMHBsWT.gif)
 
