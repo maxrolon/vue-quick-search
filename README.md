@@ -113,7 +113,7 @@ function decodeResults (response) {
   
   <!-- Props: {item} -->
   <template slot="result" slot-scope="props">
-  	<img :src="props.item.image" :alt="props.item.title" />
+    <img :src="props.item.image" :alt="props.item.title" />
     <p class="result-title">{{props.item.title}}</p>
   </template>
   
