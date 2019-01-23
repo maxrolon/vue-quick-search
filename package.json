@@ -1,6 +1,6 @@
 {
   "name": "vue-quick-search",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Vue quick search module",
   "source": "src/vue-quick-search.vue",
   "main": "dist/vueQuickSearch.umd.min.js",
