@@ -183,6 +183,10 @@ export default {
       this.inputFocused = false
     },
     onClickOutside (e) {
+      if (!this.isActive) {
+        return true
+      }
+
       if (
         !this.$el.contains(e.target) &&
         this.$el !== e.target
