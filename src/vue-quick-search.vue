@@ -104,7 +104,7 @@ export default {
       if (!matches) {
         return url
       }
-      return `${matches[1] ? matches[1] : ''}${matches[2] ? `?${encodeURIComponent(matches[2])}` : ''}`
+      return `${matches[1] ? matches[1] : ''}${matches[2] ? `?${matches[2]}` : ''}`
     },
     filteredResults () {
       let filtered = []
