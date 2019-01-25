@@ -272,7 +272,7 @@ export default {
               :value="fullSearchQuery" />
           </div>
         </form>
-        <div class="vuwe-is__dropdown" v-if="isActive && !initialState">
+        <div class="vue-is__dropdown" v-if="isActive && !initialState">
           <div
             class="vue-qs__results-wrapper">
             <div class="vue-qs__results-overflow">
